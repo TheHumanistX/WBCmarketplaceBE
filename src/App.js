@@ -1,5 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Routes}  from 'react-router-dom';
+import Homepage from './Components/Homepage.js';
+import Products from './Components/Products.js';
 
 function App() {
   return (
@@ -17,6 +19,15 @@ function App() {
           </ul>
         </nav>
       </header>
+
+      <Router>
+        <Routes> 
+          <Route path = "/" element = {<Homepage /> } />
+          <Route path = "/Products" element = {<Products />} />
+
+        </Routes>
+        
+      </Router>
     </div>
   );
 }

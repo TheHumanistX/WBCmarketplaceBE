@@ -1,0 +1,91 @@
+header {
+    height: 100px;
+    color: whitesmoke;
+}
+
+.logo h1 a {
+    font-size: 37px;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+}
+
+nav {
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    nav box-icon {
+        display: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 2.5rem;
+        }
+
+        nav ul .nav-cta a {
+            border: 2px solid #EE811A;
+            background: #EE811A;
+            padding: 6px 10px;
+        }
+
+            nav ul .nav-cta a:hover {
+                color: #fff;
+                transition: .5s ease-in-out;
+            }
+
+        nav ul .nav-signout a {
+            border: 2px solid #353535;
+            background-color: #353535;
+            padding: 6px 10px;
+        }
+
+        nav ul li a:hover {
+            color: #2F8AE4;
+            transition: .5s ease-in-out;
+        }
+
+/* Homepage Hero Section */
+section {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hero {
+    width: 100%;
+    color: white;
+}
+
+    .hero h1 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 112.5%;
+        margin-bottom: 2rem;
+    }
+
+    .hero p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170.5%;
+        margin-bottom: 3.65rem;
+    }
+
+    .hero .header-cta {
+        border: 2px solid #EE811A;
+        background: #EE811A;
+        padding: 8px 15px;
+    }
+
+.header-cta a {
+    font-size: 18px;
+}
